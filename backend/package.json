@@ -1,0 +1,26 @@
+{
+  "name": "ict251-timetable-crud",
+  "version": "1.0.0",
+  "description": "Student Timetable Management CRUD Application for ICT251 Activity 4",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "ICT251",
+    "timetable",
+    "CRUD",
+    "Node.js",
+    "SQLite"
+  ],
+  "author": "Student",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
